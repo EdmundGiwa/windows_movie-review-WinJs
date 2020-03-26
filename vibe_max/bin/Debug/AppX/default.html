@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>vibe_max</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <!-- vibe_max references -->
+    <link href="/css/default.css" rel="stylesheet" />
+     <link href="/css/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/fontawesome-free-5.5.0-web/fontawesome-free-5.5.0-web/css/all.css">
+    <script src="/js/default.js"></script>
+    <script src="/greensock-js/greensock-js/src/uncompressed/TweenMax.js"></script>
+</head>
+
+<body>
+    <div class="overlay">
+        <h1>Just For Fun</h1>
+    </div>
+    <div class="wrapper">
+        <div class="logo">
+            <img src="/images/logo.png" alt="Alternate Text" /></div>
+        <div class="social-media">
+            <ul>
+                <!--
+                <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+                <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+-->
+                <li><i style="font-size: 19px;" class="fab fa-1x fa-facebook _facebook"></i></li>
+                <li><i style="font-size: 19px;" class="fab fa-1x fa-twitter _twitter"></i></li>
+                <li><i style="font-size: 19px;" class="fab fa-1x fa-instagram  _instagram"></i></li>
+                <li><i style="font-size: 19px;" class="fab fa-1x fa-youtube _youtube"></i></li>
+
+            </ul>
+        </div>
+        <div class="side-strip">
+            <span>Words Words Words</span>
+        </div>
+        <div class="header">
+            <h1>Movie Point</h1>
+            <p>Check out hot movie thrillers and get the chance to rate them. have fun</p>
+            <a href="signin.html"> 
+                 <button>
+                Sign Up
+                </button>
+            </a>
+        </div>
+        <div>
+            <div class="bottom-bar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <h6>
+                               Watch Movie
+                            </h6>
+                            <p>Watch your favourite block busters with ease :)</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <h6>
+                                Rate Movie
+                            </h6>
+                            <p>Get a chance to rate your favourite movies and give your opinion about them</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <h6>
+                               View Trailers
+                            </h6>
+                            <p>For the best part, get latest movie thrillers from series to action movies...we gat you </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/jquery-3.3.1.js"></script>
+    <script>
+        TweenMax.to(".overlay h1", 2, {
+            delay: 1,
+            opacity: 0,
+            y: -60,
+            ease: Expo.easeInOut
+        })
+        TweenMax.to(".overlay ", 2, {
+            delay: 1.8,
+            top: "-100%",
+            ease: Expo.easeInOut
+        })
+        TweenMax.from(".logo", 1, {
+            delay: 2.4,
+            opacity: 0,
+            ease: Expo.easeInOut
+        })
+        TweenMax.staggerFrom(".social-media ul li", 1, {
+            delay: 2.4,
+            opacity: 0,
+            y: 20,
+            ease: Expo.easeInOut
+        }, 0.2)
+        TweenMax.from(".side-strip", 2, {
+            delay: 2.4,
+            opacity: 0,
+            y: 40,
+            ease: Expo.easeInOut
+        })
+        TweenMax.from(".row", 2, {
+            delay: 2.4,
+            opacity: 0,
+            x: 40,
+            ease: Expo.easeInOut
+        })
+        TweenMax.from(".row h6", 2, {
+            delay: 3,
+            opacity: 0,
+            y: 40,
+            ease: Expo.easeInOut
+        })
+        TweenMax.from(".row p", 2, {
+            delay: 3.2,
+            opacity: 0,
+            y: 20,
+            ease: Expo.easeInOut
+        })
+        TweenMax.from(".header h1", 2, {
+            delay: 3.2,
+            opacity: 0,
+            y: 20,
+            ease: Expo.easeInOut
+        })
+        TweenMax.from(".header p", 2, {
+            delay: 3.4,
+            opacity: 0,
+            y: 20,
+            ease: Expo.easeInOut
+        })
+        TweenMax.from(".header button", 2, {
+            delay: 3.6,
+            opacity: 0,
+            y: 20,
+            ease: Expo.easeInOut
+        })
+
+
+
+    </script>
+</body>
+
+</html>

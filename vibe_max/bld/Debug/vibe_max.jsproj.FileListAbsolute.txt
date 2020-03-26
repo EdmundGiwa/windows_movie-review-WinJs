@@ -1,0 +1,13 @@
+C:\Users\EddyF\OneDrive\Documents\Visual Studio 2012\Projects\vibe_max\vibe_max\bin\Debug\resources.pri
+C:\Users\EddyF\OneDrive\Documents\Visual Studio 2012\Projects\vibe_max\vibe_max\bin\Debug\AppxManifest.xml
+C:\Users\EddyF\OneDrive\Documents\Visual Studio 2012\Projects\vibe_max\vibe_max\bin\Debug\vibe_max.build.appxrecipe
+C:\Users\EddyF\OneDrive\Documents\Visual Studio 2012\Projects\vibe_max\vibe_max\bld\Debug\priconfig.xml.intermediate
+C:\Users\EddyF\OneDrive\Documents\Visual Studio 2012\Projects\vibe_max\vibe_max\bld\Debug\layout.resfiles.intermediate
+C:\Users\EddyF\OneDrive\Documents\Visual Studio 2012\Projects\vibe_max\vibe_max\bld\Debug\resources.resfiles.intermediate
+C:\Users\EddyF\OneDrive\Documents\Visual Studio 2012\Projects\vibe_max\vibe_max\bld\Debug\pri.resfiles.intermediate
+C:\Users\EddyF\OneDrive\Documents\Visual Studio 2012\Projects\vibe_max\vibe_max\bld\Debug\priconfig.xml
+C:\Users\EddyF\OneDrive\Documents\Visual Studio 2012\Projects\vibe_max\vibe_max\bld\Debug\layout.resfiles
+C:\Users\EddyF\OneDrive\Documents\Visual Studio 2012\Projects\vibe_max\vibe_max\bld\Debug\resources.resfiles
+C:\Users\EddyF\OneDrive\Documents\Visual Studio 2012\Projects\vibe_max\vibe_max\bld\Debug\pri.resfiles
+C:\Users\EddyF\OneDrive\Documents\Visual Studio 2012\Projects\vibe_max\vibe_max\bld\Debug\LanguageQualifiers.txt
+C:\Users\EddyF\OneDrive\Documents\Visual Studio 2012\Projects\vibe_max\vibe_max\bld\Debug\ProjectArchitectures.txt
